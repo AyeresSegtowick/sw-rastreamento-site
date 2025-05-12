@@ -374,10 +374,12 @@ footer {
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s;
+  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .btn:hover {
   background-color: #cc0000;
+  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 /* Responsivo */
@@ -414,7 +416,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   padding: 25px;
-  width: 250px;
+  width: 200px;
   text-align: center;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
@@ -592,7 +594,8 @@ footer {
 .planos-beneficios h2 {
   color: #fff;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .planos-container {
@@ -610,6 +613,7 @@ footer {
   width: 280px;
   text-align: center;
   transition: transform 0.3s;
+  
 }
 
 .plano-card:hover {
@@ -641,12 +645,15 @@ footer {
   border-radius: 6px;
   font-weight: bold;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: auto;
   text-decoration: none;
+  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .plano-card .btn:hover {
   background-color: #cc0000;
+  display: flex;
+  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .plano-card.destaque {
@@ -657,12 +664,13 @@ footer {
 .beneficios-lista {
   list-style: none;
   padding: 0;
-  margin-top: 30px;
-  color: #eee;
+  margin-top: 2px;
+  color: #fff;
+  text-align: center;
 }
 
 .beneficios-lista li {
-  margin: 10px 0;
+  margin: 5px 5;
   font-size: 16px;
 }
 
@@ -854,6 +862,8 @@ main.sobre ul li {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  margin-top: auto;
+  align-self: center; /* Opcional: centraliza horizontalmente */
 }
 
 .btn-cta:hover {
@@ -866,7 +876,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  color: #fff;
+  color: #333;
 }
 
 main.servicos {
@@ -933,6 +943,47 @@ main.servicos {
     padding: 20px;
   }
 }
+
+.plano {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.plano-card {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+ 
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+
 
 
 

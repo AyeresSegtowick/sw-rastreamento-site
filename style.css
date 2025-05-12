@@ -932,6 +932,45 @@ main.servicos {
     padding: 20px;
   }
 }
+.plano {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.plano-card {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+ 
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
 
 
 

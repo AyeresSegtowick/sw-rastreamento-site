@@ -265,12 +265,11 @@ footer {
 
 /* Hero Section */
 .hero {
-  background-image: url('banner1.png');
+  background: linear-gradient(to right, rgba(0, 19, 51, 0.85), rgba(153, 0, 0, 0.85)),
+              url('../img/hero-bg.jpg') no-repeat center center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 20px;
-  color: white;
+  color: #fff;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -363,7 +362,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin: 15px 0;
-  color: #ff0000;
+  color: #f3eded;
 }
 
 .btn {
@@ -374,12 +373,10 @@ footer {
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s;
-  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .btn:hover {
   background-color: #cc0000;
-  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 /* Responsivo */
@@ -416,7 +413,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   padding: 25px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
@@ -594,8 +591,7 @@ footer {
 .planos-beneficios h2 {
   color: #fff;
   font-size: 28px;
-  margin-bottom: 50px;
-  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .planos-container {
@@ -613,7 +609,6 @@ footer {
   width: 280px;
   text-align: center;
   transition: transform 0.3s;
-  
 }
 
 .plano-card:hover {
@@ -645,15 +640,12 @@ footer {
   border-radius: 6px;
   font-weight: bold;
   display: inline-block;
-  margin-top: auto;
+  margin-top: 10px;
   text-decoration: none;
-  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .plano-card .btn:hover {
   background-color: #cc0000;
-  display: flex;
-  margin-top: auto; /* Alinha o botão ao fundo */
 }
 
 .plano-card.destaque {
@@ -664,13 +656,12 @@ footer {
 .beneficios-lista {
   list-style: none;
   padding: 0;
-  margin-top: 2px;
-  color: #fff;
-  text-align: center;
+  margin-top: 30px;
+  color: #eee;
 }
 
 .beneficios-lista li {
-  margin: 5px 5;
+  margin: 10px 0;
   font-size: 16px;
 }
 
@@ -826,7 +817,7 @@ main.sobre ul li {
 }
 
 .hero {
-  background-image: url('banner1.png');
+  background-image: url('../img/banner1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -862,8 +853,6 @@ main.sobre ul li {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  margin-top: auto;
-  align-self: center; /* Opcional: centraliza horizontalmente */
 }
 
 .btn-cta:hover {
@@ -943,47 +932,6 @@ main.servicos {
     padding: 20px;
   }
 }
-
-.plano {
-  background: #ffffff40;
-  padding: 20px;
-  border: 1px solid #f5f5fa;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-}
-
-.preco-faixa {
-  background-color: #004aad; /* azul SW Rastreamento */
-  color: white;
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 10px;
-  margin: 15px 0;
-  border-radius: 6px;
-}
-
-.plano-card {
-  background: #ffffff40;
-  padding: 20px;
-  border: 1px solid #f5f5fa;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
- 
-}
-
-.preco-faixa {
-  background-color: #004aad; /* azul SW Rastreamento */
-  color: white;
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 10px;
-  margin: 15px 0;
-  border-radius: 6px;
-}
-
-
 
 
 

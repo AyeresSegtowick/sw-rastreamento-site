@@ -578,12 +578,51 @@ footer {
   max-height: 500px;
   padding: 15px;
 }
+.plano {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.plano-card {
+  background: #ffffff40;
+  padding: 20px;
+  border: 1px solid #f5f5fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+ 
+}
+
+.preco-faixa {
+  background-color: #004aad; /* azul SW Rastreamento */
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
 
 .planos-beneficios {
   padding: 40px 20px;
-  background-color: rgba(255, 255, 255, 0.03);
-  border-top: 2px solid #ffffff20;
-  border-bottom: 2px solid #ffffff20;
+  background-color: rgb(255 255 255 / 12%);
+  border-top: 2px solid #ffffffba;
+  border-bottom: 2px solid #ffffffc9;
   margin: 40px 0;
   text-align: center;
 }
@@ -602,8 +641,8 @@ footer {
 }
 
 .plano-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 2px solid #ffffff20;
+  background-color: rgb(255 255 255 / 24%);
+  border: 2px solid #ffffff73;
   padding: 20px;
   border-radius: 10px;
   width: 280px;

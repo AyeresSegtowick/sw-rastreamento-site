@@ -222,7 +222,7 @@ footer {
 .carrossel-parceiros {
   overflow: hidden;
   padding: 30px 0;
-  background-color: rgba(255, 255, 255, 0.2); /* branco com 20% de opacidade */
+  background-color: rgb(255 255 255 / 58%); /* branco com 58% de opacidade */
   display: flex;
   justify-content: center;
   border-radius: 10px;
